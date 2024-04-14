@@ -1,0 +1,43 @@
+/* Import Roboto Mono font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+/* Default styles */
+html, body {
+  font-family: 'Roboto Mono', monospace;
+  background: #212121;
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-weight: 100;
+  font-size: 28px;
+  color: #FAFAFA;
+}
+
+.dud {
+  color: #757575;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  /* Styles for screens smaller than or equal to 768px */
+  .text {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Styles for screens smaller than or equal to 480px */
+  .text {
+    font-size: 16px;
+  }
+}
